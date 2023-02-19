@@ -47,7 +47,9 @@
 
 <body class="overflow-x-hidden">
 
-    <section class="hero bg-disblue lg:h-[96vh] h-auto w-[100vw] lg:bg-[url('/assets/cloude.svg')] bg-no-repeat bg-bottom transition ease-in-out">
+    <section
+        class="hero bg-disblue  h-auto w-[100vw] lg:bg-[url('/assets/cloude.svg')] bg-no-repeat bg-bottom transition ease-in-out">
+        <!-- Navber Start hare -->
         <nav class="flex items-center justify-between  py-6 mx-3 md:mx-10 lg:mx-[7rem] ">
             <svg width="134" height="44" viewBox="0 0 124 34" class="logo-3oeRIY text-white cursor-pointer">
                 <g fill="currentColor">
@@ -100,8 +102,8 @@
             </div>
 
             <!-- side bar -->
-            <div
-                class="bg-white h-[100vh] w-[21rem] border-2 fixed right-[-100%] bottom-0 rounded-tl-xl rounded-bl-xl " id="menu">
+            <div class="bg-white h-[100vh] w-[21rem] border-2 fixed right-[-100%] bottom-0 rounded-tl-xl rounded-bl-xl "
+                id="menu">
                 <div class="flex items-center justify-between px-4 py-4">
                     <svg width="134" height="44" viewBox="0 0 124 34" class="logo-3oeRIY cursor-pointer text-black  ">
                         <g fill="currentColor">
@@ -158,18 +160,42 @@
                 </a>
             </div>
         </nav>
+
+        <!-- Hero Start hare -->
+        <div class="md:py-[120px] py-[20px]">
+            <div class="text-white max-w-[45rem] lg:text-center lg:mx-auto mx-8">
+                <h1 class="font-black sm:text-[56px] text-[30px] font-mont uppercase">imagine a palce...</h1>
+                <p class="font-open md:text-[1.2rem] mt-6">
+                    ...where you can belong to a school club, a gaming group, or a worldwide art community. Where just
+                    you and a handful of friends can spend time together. A place that makes it easy to talk every day
+                    and hang out more often.
+                </p>
+                <div class="flex items-center lg:justify-center flex-wrap mt-4">
+                    <a
+                        class="bg-white text-disblack cursor-pointer text-[20px] font-semibold py-3 px-6 rounded-[40px] flex items-center justify-center sm:mx-6 mt-4">
+                        <i class="fa-regular fa-circle-down text-xl mr-2"></i>
+                        Download for Windows
+                    </a>
+                    <a
+                        class="bg-disblack text-white cursor-pointer text-[20px] font-semibold py-3 px-6 rounded-[40px] flex items-center justify-center sm:mx-6 mt-4">
+                        Open Discord in your browser
+                    </a>
+                </div>
+            </div>
+            <!-- <img src="assets/heroLeft.svg" alt="left" class="absolute sm:left-1/2 block sm:w-auto bottom-7 h-auto transform-none sm:ml-[-1029px] ml-auto   sm:first-letter:max-w-none "> -->
+        </div>
     </section>
 
     <script>
-        function openmenu(){
+        function openmenu() {
             console.log('object');
             let menu = document.querySelector('#menu')
-             menu.style.right = "0"
+            menu.style.right = "0"
         }
 
-        function closemenu(){
+        function closemenu() {
             let menu = document.querySelector('#menu')
-             menu.style.right = "-100%"
+            menu.style.right = "-100%"
         }
     </script>
 </body>
