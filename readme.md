@@ -6,6 +6,8 @@
  
  ## Deployed on vercel
 
+ ## Live https://discordcloneforlearing.vercel.app/
+
 ## 64rohanmalo@gmail.com
 
  
