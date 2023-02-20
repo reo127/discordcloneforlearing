@@ -35,6 +35,11 @@
                         'mont': 'Montserrat',
                         'open': 'Open Sans'
                     },
+                    fontSize: {
+                        pdynamic: "clamp(16px,2vw,20px)",
+                        hdynamic: "clamp(20px,4vw,40px)",
+                        mainheading: "clamp(24px,5vw,44px)"
+                    },
                 },
             },
             plugins: [],
@@ -164,7 +169,7 @@
         <!-- Hero Start hare -->
         <div class="md:py-[120px] py-[20px]">
             <div class="text-white max-w-[52rem] lg:text-center lg:mx-auto mx-8">
-                <h1 class="font-black sm:text-[63px] text-[30px] font-mont uppercase">imagine a palce...</h1>
+                <h1 class="font-black sm:text-[63px] text-mainheading font-mont uppercase">imagine a palce...</h1>
                 <p class="font-open md:text-[1.2rem] mt-6 md:leading-8">
                     ...where you can belong to a school club, a gaming group, or a worldwide art community. Where just
                     you and a handful of friends can spend time together. A place that makes it easy to talk every day
@@ -183,9 +188,97 @@
                 </div>
             </div>
         </div>
-        <img src="assets/heroLeft.svg" alt="left" class="lg:absolute block sm:w-auto bottom-20 sm:hidden lg:block h-auto transform-none left-[-26rem] sm:first-letter:max-w-none ">
+        <img src="assets/heroLeft.svg" alt="left"
+            class="lg:absolute block sm:w-auto bottom-20 sm:hidden lg:block h-auto transform-none left-[-26rem] sm:first-letter:max-w-none ">
         <img src="assets/heroRight.svg" alt="right" class="md:absolute right-[-24rem] bottom-20 hidden lg:block">
     </section>
+
+
+    <!-- Section 2 starts hare -->
+    <section>
+        <div class="sm:my-32 my-20">
+            <div class="font-open flex flex-col sm:flex-row  items-center justify-evenly">
+                <img src="assets/section1.svg" alt="img"
+                    class="sm:max-w-[678px] min-w-[200px] min-h[100px] max-h-[440px]">
+                <div class="sm:max-w-[26rem] px-4 sm:px-0">
+                    <h1 class="lg:text-5xl text-hdynamic text-disblack font-extrabold lg:leading-[3.6rem]">Create an
+                        invite-only place where you belong
+                    </h1>
+                    <p class="text-pdynamic mt-[24px] text-[#525658]">Discord servers are organized into topic-based
+                        channels
+                        where you can collaborate, share, and just talk about your day without clogging up a group chat.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section 3 starts hare -->
+    <section>
+        <div class="sm:my-32 py-16 bg-[#F6F6F6]">
+            <div class="font-open flex flex-col-reverse sm:flex-row  items-center justify-evenly">
+                <div class="sm:max-w-[26rem] px-4 sm:px-0">
+                    <h1 class="lg:text-5xl text-hdynamic text-disblack font-extrabold lg:leading-[3.6rem]">Where hanging
+                        out is easy
+                    </h1>
+                    <p class="text-pdynamic mt-[24px] text-[#525658]">Grab a seat in a voice channel when you’re free.
+                        Friends in your server can see you’re around and instantly pop in to talk without having to
+                        call.
+                    </p>
+                </div>
+                <img src="assets/section2.svg" alt="img"
+                    class="sm:max-w-[678px] min-w-[200px] min-h[100px] max-h-[440px]">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section 4 starts hare -->
+    <section>
+        <div class="sm:my-32 my-20">
+            <div class="font-open flex flex-col sm:flex-row  items-center justify-evenly">
+                <img src="assets/section3.svg" alt="img"
+                    class="sm:max-w-[678px] min-w-[200px] min-h[100px] max-h-[440px]">
+                <div class="sm:max-w-[26rem] px-4 sm:px-0">
+                    <h1 class="lg:text-5xl text-hdynamic text-disblack font-extrabold lg:leading-[3.6rem]">From few to a
+                        fandom
+                    </h1>
+                    <p class="text-pdynamic mt-[24px] text-[#525658]">Get any community running with moderation tools
+                        and custom member access. Give members special powers, set up private channels, and more.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section 5 Starts hare -->
+    <section class="bg-[#F6F6F6]">
+        <div class="px-4 lg:px-0 text-left md:text-center py-16 sm:py-24">
+            <h1 class="font-black sm:text-[48px] text-mainheading font-mont uppercase">RELIABLE TECH FOR STAYING CLOSE
+            </h1>
+            <p class="font-open md:text-[1.2rem] text-[#525658] mt-6 md:leading-8 max-w-[62rem] mx-auto">
+                Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends
+                stream their games, or gather up and have a drawing session with screen share.
+            </p>
+        </div>
+
+        <img src="assets/section4.svg" alt="img" class="w-[80%] mx-auto">
+
+        <div class="flex items-center justify-center">
+            <div class="sm:text-center text-left my-16 px-4 sm:px-0">
+                <img src="assets/bgstars.svg" alt="img" class="">
+                <h4 class="font-bold text-[32px] mb-12">Ready to start your journey?</h4>
+
+                <a class="bg-disblue text-white cursor-pointer text-[20px] font-semibold py-4 px-8 rounded-full ">
+                    <i class="fa-regular fa-circle-down text-2xl mr-2"></i>
+                    Download for Windows
+                </a>
+            </div>
+        </div>
+    </section>
+
 
     <script>
         function openmenu() {
